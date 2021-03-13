@@ -1,0 +1,74 @@
+body{
+	width: 100vw;
+    height: 100vh;
+	margin: 0;
+}
+
+#chatLog{
+	justify-content: center;
+    align-items: center;
+	width: 50%; 
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 3px;
+	font-family: 'Nanum Gothic', sans-serif;
+	outline: none;
+}
+
+#name, #touser{ 
+	width: 15%; 
+	height: 20px;
+	border: 1px solid black;
+	padding-right: 10px;
+	outline: none;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+#message, #tomessage{ 
+	font-family: 'Nanum Gothic', sans-serif;
+	width: 35%;
+	height: 20px;
+	padding: 0;
+	border: 1px solid black;
+	border-left: none;
+	align-items: center;
+	outline: none;
+}
+
+#under{
+	justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+	margin-top: 20px;
+}
+
+#btn, #tobtn{
+	font-family: 'Nanum Gothic', sans-serif;
+	background-color: darkseagreen;
+	outline: none;
+	border: none;
+	color: white;
+	height: 20px;
+}
+
+#chat{
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-info{
+	font-family: 'Nanum Gothic', sans-serif;
+	color: white;
+	border-radius: 3px;
+	background-color: darkseagreen;
+	width: 50%;
+	height: 45px;
+	font-size: 20px;
+	border: none;
+}
